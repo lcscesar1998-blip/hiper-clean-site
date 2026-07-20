@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: 'HIPER CLEAN | Higienização e Estética Automotiva Premium',
   description:
     'Higienização de sofás, colchões, poltronas, estofados e estética automotiva em São Paulo. Cuidando do que é importante para você.',
-  generator: 'v0.app',
+  generator: "HIPER CLEAN",
 }
 
 export const viewport: Viewport = {

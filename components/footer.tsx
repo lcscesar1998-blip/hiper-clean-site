@@ -1,4 +1,4 @@
-import { Phone, AtSign, MapPin, MessageCircle } from "lucide-react"
+import { Phone, AtSign, MapPin, MessageCircle, Mail } from "lucide-react"
 import { Logo } from "@/components/logo"
 import { site, whatsappUrl } from "@/lib/site"
 
@@ -68,7 +68,7 @@ export function Footer() {
 
   <ul className="mt-5 space-y-4">
     <li className="text-sm text-muted-foreground">
-      Segunda a Segunda
+      Segunda a domingo
     </li>
 
     <li className="text-sm text-muted-foreground">
@@ -88,7 +88,7 @@ export function Footer() {
     </li>
 
     <li className="text-sm text-muted-foreground">
-      São Paulo e Região
+      São Paulo e região
     </li>
   </ul>
 </div>
@@ -127,6 +127,15 @@ export function Footer() {
           </ul>
         </div>
       </div>
+      <li>
+  <a
+    href="mailto:oficial.hiperclean@gmail.com"
+    className="flex items-center gap-3 text-sm text-muted-foreground transition-colors hover:text-primary"
+  >
+    <Mail className="size-4 text-primary" />
+    oficial.hiperclean@gmail.com
+  </a>
+</li>
 
       <div className="border-t border-border py-6">
         <p className="text-center text-xs text-muted-foreground">
