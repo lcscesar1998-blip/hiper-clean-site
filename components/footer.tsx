@@ -124,10 +124,7 @@ export function Footer() {
               <MapPin className="size-4 text-primary" />
               {site.city}
             </li>
-          </ul>
-        </div>
-      </div>
-      <li>
+            <li>
   <a
     href="mailto:oficial.hiperclean@gmail.com"
     className="flex items-center gap-3 text-sm text-muted-foreground transition-colors hover:text-primary"
@@ -136,6 +133,10 @@ export function Footer() {
     oficial.hiperclean@gmail.com
   </a>
 </li>
+          </ul>
+        </div>
+      </div>
+      
 
       <div className="border-t border-border py-6">
         <p className="text-center text-xs text-muted-foreground">
