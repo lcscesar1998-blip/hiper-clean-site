@@ -27,7 +27,7 @@ export function BeforeAfter() {
             Resultados que falam por si
           </h2>
           <p className="mt-4 text-pretty text-muted-foreground">
-            Arraste para comparar o antes e o depois de uma higienização profissional HIPER CLEAN.
+            Arraste para comparar o antes e o depois de uma higienização profissional realizada pelaHIPER CLEAN.
           </p>
         </Reveal>
 
@@ -65,9 +65,11 @@ export function BeforeAfter() {
 
             <span className="absolute left-4 top-4 rounded-full bg-black/60 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-white backdrop-blur">
               Antes
+              manchas, arcáros, odores e todo tipo de sujidades.
             </span>
             <span className="absolute right-4 top-4 rounded-full bg-primary px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary-foreground">
               Depois
+              limpo, higienizado, protegido e com aparência de novo.
             </span>
 
             <div
@@ -75,7 +77,7 @@ export function BeforeAfter() {
               style={{ left: `${pos}%`, transform: "translateX(-50%)" }}
             >
               <div className="flex size-11 items-center justify-center rounded-full bg-primary text-primary-foreground shadow-lg shadow-primary/40">
-                <MoveHorizontal className="size-5" />
+                <MoveHorizontal className="size-6" />
               </div>
             </div>
           </div>

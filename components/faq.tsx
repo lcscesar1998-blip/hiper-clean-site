@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: "Como funciona a Garantia Estendida HIPER CLEAN?",
-    a: "O cliente pode contratar nossa Garantia Estendida investindo apenas 30% do valor do serviço. Durante o período de vigência de 30 dias, caso surjam novas manchas, terá direito a 50% de desconto em uma nova higienização do mesmo estofado, além de atendimento prioritário.",
+    a: "O cliente pode contratar nossa Garantia Estendida com um investimento adicional correspondente a 30% do valor do serviço. Durante o período de vigência de 30 dias, caso surjam novas manchas, terá direito a 50% de desconto em uma nova higienização do mesmo estofado, além de atendimento pSrioritário.",
   },
   {
     q: "Quais formas de pagamento vocês aceitam?",

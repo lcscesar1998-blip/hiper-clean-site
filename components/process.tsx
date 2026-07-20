@@ -47,10 +47,10 @@ export function Process() {
         <Reveal className="mx-auto max-w-2xl text-center">
           <span className="text-sm font-semibold uppercase tracking-[0.25em] text-primary">Como trabalhamos</span>
           <h2 className="mt-4 text-balance font-serif text-3xl font-bold tracking-tight sm:text-4xl">
-            Nosso processo em 6 etapas
+            COMO TRABALHAMOS
           </h2>
           <p className="mt-4 text-pretty text-muted-foreground">
-            Um método rigoroso e transparente que garante resultado impecável do início ao fim.
+            Veja como funciona nosso atendimento em 6 etapas, desde a avaliação do estofado, até a entrega do serviço finalizado, garantindo qualidade e satisfação.
           </p>
         </Reveal>
 
