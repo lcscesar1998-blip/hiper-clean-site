@@ -68,7 +68,7 @@ export function Footer() {
 
   <ul className="mt-5 space-y-4">
     <li className="text-sm text-muted-foreground">
-      Segunda a domingo
+      Segunda a Domingo
     </li>
 
     <li className="text-sm text-muted-foreground">
@@ -110,6 +110,15 @@ export function Footer() {
               </li>
             ))}
             <li>
+  <a
+    href={`mailto:${site.email}`}
+    className="flex items-center gap-3 text-sm text-muted-foreground transition-colors hover:text-primary"
+  >
+    <Mail className="size-4 text-primary" />
+    {site.email}
+  </a>
+</li>
+<li>
               <a
                 href={site.instagramUrl}
                 target="_blank"
@@ -124,15 +133,6 @@ export function Footer() {
               <MapPin className="size-4 text-primary" />
               {site.city}
             </li>
-            <li>
-  <a
-    href="mailto:oficial.hiperclean@gmail.com"
-    className="flex items-center gap-3 text-sm text-muted-foreground transition-colors hover:text-primary"
-  >
-    <Mail className="size-4 text-primary" />
-    oficial.hiperclean@gmail.com
-  </a>
-</li>
           </ul>
         </div>
       </div>
